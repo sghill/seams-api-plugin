@@ -1,7 +1,11 @@
-# Jenkins Plugin Template
+# seams-api
 
-Run this to scaffold a plugin interactively:
+## Introduction
 
-```shell
-$ mvn -U archetype:generate -Dfilter=io.jenkins.archetypes:
-```
+Simple, dependency-injection friendly classes to create more testable Jenkins plugins.
+
+
+## LICENSE
+
+Licensed under Apache 2.0, see [LICENSE](LICENSE)
+
