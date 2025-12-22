@@ -1,6 +1,6 @@
 {
   "name": "Jenkins Plugin Development",
-  "image": "mcr.microsoft.com/devcontainers/java:25",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/sghill/jenkins-plugin-dev:1": {}
