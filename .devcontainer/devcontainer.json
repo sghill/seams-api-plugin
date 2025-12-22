@@ -17,5 +17,5 @@
       ]
     }
   },
-  "postCreateCommand": "mvn --version && gh --version"
+  "postCreateCommand": ".devcontainer/post-create.sh"
 }
