@@ -1,0 +1,12 @@
+name: Workflow Authorization
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: sghill/central-actions/.github/workflows/authz.yml@main
