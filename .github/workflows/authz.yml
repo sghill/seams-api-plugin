@@ -9,4 +9,6 @@ on:
 
 jobs:
   call-workflow:
+    permissions:
+      id-token: write
     uses: sghill/central-actions/.github/workflows/authz.yml@main
